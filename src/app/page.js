@@ -17,7 +17,7 @@ export default function Home() {
         <div className='text-center flex flex-col justify-center xl:pt-48 sm:pt-0 pt-20 xl:text-left h-full container mx-auto'>
 
           {/* Title */}
-          <motion.h1 variants={fadeIn('down', 0.4)} initial='hidden' animate='show' exit='hidden' className='mb-2 font-semibold sm:text-[53px] text-[35px] leading-[4.25rem]'>
+          <motion.h1 variants={fadeIn('down', 0.4)} initial='hidden' animate='show' exit='hidden' className='mb-2 font-semibold sm:text-[53px] text-[33px] leading-[3rem] sm:leading-[4.25rem]'>
             Transforming Ideas <br /> Into 
             <span className='text-accent'> Digital Reality</span>
           </motion.h1>
