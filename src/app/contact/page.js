@@ -34,7 +34,7 @@ const Contact = () => {
 
             <input type="text" name="name" id="name" className="block px-0 h-full w-full text-lg text-accent bg-transparent border-0 border-b-2 border-[#FFFFFF] appearance-none focus:outline-none focus:ring-0 focus:border-[#FFFFFF] peer" placeholder=" " required />
 
-            <label htmlFor="name" className="peer-focus:font-medium absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-accent  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
+            <label htmlFor="name" className="peer-focus:font-medium absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] left-0 peer-focus:left-0 peer-focus:text-accent  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Name</label>
 
             </div>
 
@@ -43,7 +43,7 @@ const Contact = () => {
 
             <input type="email" name="email" id="email" className="block px-0 h-full w-full text-lg text-accent bg-transparent border-0 border-b-2 border-[#FFFFFF] appearance-none focus:outline-none focus:ring-0 focus:border-[#FFFFFF] peer" placeholder=" " required />
 
-            <label htmlFor="email" className="peer-focus:font-medium absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-accent  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
+            <label htmlFor="email" className="peer-focus:font-medium absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] left-0 peer-focus:left-0 peer-focus:text-accent  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email</label>
 
             </div>
 
@@ -54,7 +54,7 @@ const Contact = () => {
 
             <input type="text" name="subject" id="subject" className="block px-0 h-full w-full text-lg text-accent bg-transparent border-0 border-b-2 border-[#FFFFFF] appearance-none focus:outline-none focus:ring-0 focus:border-[#FFFFFF] peer" placeholder=" " required />
 
-            <label htmlFor="subject" className="peer-focus:font-medium absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-accent  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Subject</label>
+            <label htmlFor="subject" className="peer-focus:font-medium absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] left-0 peer-focus:left-0 peer-focus:text-accent  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Subject</label>
 
           </div>
 
@@ -63,7 +63,7 @@ const Contact = () => {
 
             <textarea type="text" name="subject" id="subject" className="pt-4 block px-0 h-full w-full text-lg text-accent bg-transparent border-0 border-b-2 border-[#FFFFFF] appearance-none focus:outline-none focus:ring-0 focus:border-[#FFFFFF] peer" placeholder=" " required />
 
-            <label htmlFor="subject" className="peer-focus:font-medium absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-accent  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
+            <label htmlFor="subject" className="peer-focus:font-medium absolute text-base text-gray-600 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] left-0 peer-focus:left-0 peer-focus:text-accent  peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Message</label>
 
           </div>
 
