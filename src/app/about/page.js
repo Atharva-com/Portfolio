@@ -119,7 +119,7 @@ const About = () => {
     initial='hidden'
     animate='show'
     exit='hidden'
-    className='h-full bg-primary/30 sm:py-32 py-[6.5rem] text-center xl:text-left'>
+    className='h-full bg-primary/30 sm:py-32 pt-[6.5rem] pb-28 text-center xl:text-left'>
 
     <Circles />
 
@@ -143,7 +143,7 @@ const About = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className='mb-1 font-semibold md:text-[55px] md:leading-[1.3] leading-[1.25] text-[26px]'>
+          className='mb-1 font-semibold md:text-[55px] md:leading-[1.3] leading-[1.25] text-[30px]'>
           Captivating <span className='text-accent'>stories</span> birth magnificant designs. </motion.h2>
 
         <motion.p
