@@ -119,7 +119,7 @@ const About = () => {
     initial='hidden'
     animate='show'
     exit='hidden'
-    className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+    className='h-full bg-primary/30 sm:py-32 py-[6.5rem] text-center xl:text-left'>
 
     <Circles />
 
@@ -133,7 +133,7 @@ const About = () => {
       <Avatar />
     </motion.div>
 
-    <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 lg:p-0 px-4'>
+    <div className='overflow-hidden sm:overflow-visible container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 lg:p-0 px-4'>
 
       {/* Left */}
       <div className='flex-1 flex flex-col justify-center'>
@@ -143,7 +143,7 @@ const About = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className='mb-1 font-semibold md:text-[54px] md:leading-[1.3] leading-[1.25] text-[30px]'>
+          className='mb-1 font-semibold md:text-[55px] md:leading-[1.3] leading-[1.25] text-[26px]'>
           Captivating <span className='text-accent'>stories</span> birth magnificant designs. </motion.h2>
 
         <motion.p
