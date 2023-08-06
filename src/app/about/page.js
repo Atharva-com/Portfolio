@@ -109,11 +109,7 @@ const About = () => {
     initial='hidden'
     animate='show'
     exit='hidden'
-<<<<<<< HEAD
     className='h-full bg-primary/30 sm:pt-40 sm:py-28 md:py-28 lg:py-24 py-[6.5rem] text-center xl:text-left'>
-=======
-    className='h-full bg-primary/30 sm:py-32 pt-[6.5rem] pb-28 text-center xl:text-left'>
->>>>>>> 10e6c3e8505b21425a9d1c18b8b0a3fb0ace50ce
 
     <Circles />
 
@@ -137,11 +133,7 @@ const About = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-<<<<<<< HEAD
           className='mb-1 font-semibold md:text-[55px] md:leading-[1.3] leading-[1.25] text-[26px]'>
-=======
-          className='mb-1 font-semibold md:text-[55px] md:leading-[1.3] leading-[1.25] text-[30px]'>
->>>>>>> 10e6c3e8505b21425a9d1c18b8b0a3fb0ace50ce
           Captivating <span className='text-accent'>stories</span> birth magnificant designs. </motion.h2>
 
         <motion.p

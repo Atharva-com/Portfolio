@@ -24,11 +24,7 @@ export default function Home() {
           </motion.h1>
 
           {/* subtitle */}
-<<<<<<< HEAD
-          <motion.p variants={fadeIn('down', 0.5)} initial='hidden' animate='show' exit='hidden' className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-4'>
-=======
           <motion.p variants={fadeIn('down', 0.5)} initial='hidden' animate='show' exit='hidden' className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-6 xl:mb-16'>
->>>>>>> 10e6c3e8505b21425a9d1c18b8b0a3fb0ace50ce
             Hi there I&apos;m self motivated web developer looking ahead to help you out with your application and building functional and beautiful websites from scratch.
           </motion.p>
 
