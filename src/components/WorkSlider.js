@@ -9,6 +9,7 @@ import thumb7 from '../../public/thumb7.png'
 import thumb8 from '../../public/thumb8.png'
 export const workSlides = {
   slides: [
+
     {
       images: [
         {
@@ -33,6 +34,7 @@ export const workSlides = {
         },
       ],
     },
+
     {
       images: [
         {
@@ -57,6 +59,7 @@ export const workSlides = {
         },
       ],
     },
+
   ],
 };
 import { BsArrowRight } from 'react-icons/bs'
@@ -77,13 +80,14 @@ const WorkSlider = () => {
     }}
     modules={[Pagination]}
     className='h-[280px] sm:h-[480px]'
+    style={{padding: '3rem 0rem'}}
   >
 
     {workSlides.slides.map((slide, index) => {
       return (
         <SwiperSlide key={index}>
 
-          <div className='grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer'>
+          <div className='grid grid-cols-2 grid-rows-2 gap-6 cursor-pointer'>
 
             {slide.images.map((image, index) => {
               return (

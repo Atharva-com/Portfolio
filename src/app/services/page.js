@@ -30,7 +30,7 @@ const Services = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maiores voluptatem minus veritatis, numquam vitae.</motion.p>
+            className='mb-4 max-w-[400px] mx-auto lg:mx-0'>Crafting Seamless Web Experiences Where Imagination Ignites Functionality, Delivering Creative Solutions with Impact.</motion.p>
         </div>
 
         <motion.div

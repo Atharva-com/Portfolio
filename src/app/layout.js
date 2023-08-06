@@ -1,18 +1,10 @@
 "use client"
 import Layout from '@/components/Layout'
 import './globals.css'
-import { Inter } from 'next/font/google'
 import { AnimatePresence, motion } from 'framer-motion'
 import { usePathname } from 'next/navigation'
-import { useEffect, useState } from 'react'
 import Transition from '@/components/Transition'
-
-const inter = Inter({ subsets: ['latin'] })
-
-export const metadata = {
-  title: 'Atharva.Portfolio',
-  description: 'A Fine Description of Atharva',
-}
+import { useEffect, useState } from 'react'
 
 export default function RootLayout({ children }) {
   const pathname = usePathname()
@@ -20,9 +12,10 @@ export default function RootLayout({ children }) {
   useEffect(() => {
     seturl(`${pathname}`)
   }, [pathname])
+  
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body>
         <Layout>
           <AnimatePresence mode='wait'>
 

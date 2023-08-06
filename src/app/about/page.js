@@ -64,26 +64,16 @@ export const aboutData = [
       },
     ],
   },
-  // {
-  //   title: 'experience',
-  //   info: [
-  //     {
-  //       title: 'React Developer - ',
-  //       school: 'ABC Company',
-  //       stage: '20XX - 20XX',
-  //     },
-  //     {
-  //       title: 'Full Stack Developer - ',
-  //       school: 'ABC Company',
-  //       stage: '20XX - 20XX',
-  //     },
-  //     {
-  //       title: 'Intern - ',
-  //       school: 'ABC Company',
-  //       stage: '20XX - 20XX',
-  //     },
-  //   ],
-  // },
+  {
+    title: 'experience',
+    info: [
+      {
+        title: 'React Developer - ',
+        school: 'Zorway',
+        stage: '2023',
+      },
+    ],
+  },
   {
     title: 'education',
     info: [
@@ -119,7 +109,7 @@ const About = () => {
     initial='hidden'
     animate='show'
     exit='hidden'
-    className='h-full bg-primary/30 py-32 text-center xl:text-left'>
+    className='h-full bg-primary/30 sm:pt-40 sm:py-28 md:py-28 lg:py-24 py-[6.5rem] text-center xl:text-left'>
 
     <Circles />
 
@@ -133,17 +123,17 @@ const About = () => {
       <Avatar />
     </motion.div>
 
-    <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 lg:p-0 px-4'>
+    <div className='overflow-hidden sm:overflow-visible container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 lg:p-0 px-4'>
 
       {/* Left */}
-      <div className='flex-1 flex flex-col justify-center'>
+      <div className='flex-1 flex flex-col justify-center my-10 sm:my-0 xl:pl-20'>
 
         <motion.h2
           variants={fadeIn('right', 0.2)}
           initial='hidden'
           animate='show'
           exit='hidden'
-          className='mb-1 font-semibold md:text-[54px] md:leading-[1.3] leading-[1.25] text-[30px]'>
+          className='mb-1 font-semibold md:text-[55px] md:leading-[1.3] leading-[1.25] text-[26px]'>
           Captivating <span className='text-accent'>stories</span> birth magnificant designs. </motion.h2>
 
         <motion.p
@@ -218,7 +208,7 @@ const About = () => {
         initial='hidden'
         animate='show'
         exit='hidden'
-        className='flex flex-col w-full justify-center lg:justify-start xl:max-w-[48%] h-[480px]'>
+        className='flex flex-col xl:pl-20 w-full overflow-scroll lg:justify-start xl:max-w-[48%] h-[480px]'>
 
         <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
           {aboutData.map((item, itemIndex) => {
