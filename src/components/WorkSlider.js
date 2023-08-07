@@ -22,6 +22,11 @@ export const workSlides = {
           link: 'https://shree-vastra-com.vercel.app/',
           path: thumb2,
         },
+      ],
+    },
+
+    {
+      images: [
         {
           title: 'Google-clone',
           link: 'https://goole-clone.vercel.app/',
@@ -47,6 +52,11 @@ export const workSlides = {
           link: 'https://weather-kappa-five.vercel.app/',
           path: thumb6,
         },
+      ],
+    },
+
+    {
+      images: [
         {
           title: 'Todo List',
           link: 'https://todo-list-chi-bay.vercel.app/',
@@ -79,7 +89,7 @@ const WorkSlider = () => {
       clickable: true
     }}
     modules={[Pagination]}
-    className='h-[280px] sm:h-[480px]'
+    className='h-[230px] sm:h-[280px] lg:h-[315px]'
     style={{padding: '3rem 0rem'}}
   >
 
@@ -87,7 +97,7 @@ const WorkSlider = () => {
       return (
         <SwiperSlide key={index}>
 
-          <div className='grid grid-cols-2 grid-rows-2 gap-6 cursor-pointer'>
+          <div className='grid grid-cols-2 sm:grid-rows-2 gap-6 cursor-pointer'>
 
             {slide.images.map((image, index) => {
               return (
