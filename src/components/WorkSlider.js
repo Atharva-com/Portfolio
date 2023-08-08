@@ -3,10 +3,11 @@ import thumb1 from '../../public/thumb1.png'
 import thumb2 from '../../public/thumb2.png'
 import thumb3 from '../../public/thumb3.png'
 import thumb4 from '../../public/thumb4.png'
-import thumb5 from '../../public/thumb5.png'
+import thumb5 from '../../public/JN Tours.png'
 import thumb6 from '../../public/thumb6.png'
 import thumb7 from '../../public/thumb7.png'
 import thumb8 from '../../public/thumb8.png'
+
 export const workSlides = {
   slides: [
 
@@ -18,9 +19,9 @@ export const workSlides = {
           path: thumb1,
         },
         {
-          title: 'E-commerce site',
-          link: 'https://shree-vastra-com.vercel.app/',
-          path: thumb2,
+          title: 'JN Tours & Travels',
+          link: 'https://tours-travels.vercel.app/',
+          path: thumb5,
         },
       ],
     },
@@ -33,9 +34,9 @@ export const workSlides = {
           path: thumb3,
         },
         {
-          title: 'The Fit club',
-          link: 'https://gymnast-com.vercel.app/',
-          path: thumb4,
+          title: 'ShreeVastra E-commerce',
+          link: 'https://shree-vastra.vercel.app/',
+          path: thumb2,
         },
       ],
     },
@@ -43,9 +44,9 @@ export const workSlides = {
     {
       images: [
         {
-          title: 'NewsApp',
-          link: 'https://newsletter-opal.vercel.app/',
-          path: thumb5,
+          title: 'The Fit club',
+          link: 'https://gymnast-com.vercel.app/',
+          path: thumb4,
         },
         {
           title: 'Weather App',
