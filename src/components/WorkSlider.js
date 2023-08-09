@@ -15,7 +15,7 @@ export const workSlides = {
       images: [
         {
           title: 'Zorway',
-          link: 'https://zorway-atharva-com.vercel.app/',
+          link: 'https://zorway.in/',
           path: thumb1,
         },
         {
