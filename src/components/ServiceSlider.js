@@ -16,14 +16,14 @@ export const serviceData = [
   //   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur',
   // },
   {
-    icon: <RxPencil2 />,
-    title: 'Page Designing',
-    description: 'Figma Designing, Wordpress Designing, Canva Designing',
-  },
-  {
     icon: <RxDesktop />,
     title: 'Website Development',
     description: "PHP Development, ReactJs Development, NodeJs Development",
+  },
+  {
+    icon: <RxPencil2 />,
+    title: 'Page Designing',
+    description: 'Figma Designing, Wordpress Designing, Canva Designing',
   },
   // {
   //   icon: <RxReader />,
@@ -72,7 +72,7 @@ const ServiceSlider = () => {
       return (
         <SwiperSlide key={index}>
 
-          <div className='bg-[rgba(65, 47, 123, 0.15)] h-max rounded-lg px-6 py-8 w-[310px] sm:w-[230px] flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300'>
+          <div className='bg-[rgba(65, 47, 123, 0.15)] h-max rounded-lg px-6 py-8 w-[350px] sm:w-[230px] flex sm:flex-col gap-x-6 sm:gap-x-0 group cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300'>
             {/* icon */}
             <div className='text-4xl text-accent mb-4'>{item.icon}</div>
 
