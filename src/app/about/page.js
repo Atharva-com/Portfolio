@@ -126,7 +126,7 @@ const About = () => {
     <div className='overflow-hidden sm:overflow-visible container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 lg:p-0 px-4'>
 
       {/* Left */}
-      <div className='flex-1 flex flex-col justify-center mt-6 sm:my-0 xl:pl-20'>
+      <div className='flex-1 flex flex-col justify-center my-6 sm:my-0 xl:pl-20'>
 
         <motion.h2
           variants={fadeIn('right', 0.2)}
