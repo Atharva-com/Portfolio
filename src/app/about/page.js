@@ -126,14 +126,14 @@ const About = () => {
     <div className='overflow-hidden sm:overflow-visible container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 lg:p-0 px-4'>
 
       {/* Left */}
-      <div className='flex-1 flex flex-col justify-center my-10 sm:my-0 xl:pl-20'>
+      <div className='flex-1 flex flex-col justify-center mt-6 sm:my-0 xl:pl-20'>
 
         <motion.h2
           variants={fadeIn('right', 0.2)}
           initial='hidden'
           animate='show'
           exit='hidden'
-          className='mb-1 font-semibold md:text-[55px] md:leading-[1.3] leading-[1.25] text-[26px]'>
+          className='mb-1 font-semibold md:text-[52px] md:leading-[1.3] leading-[1.25] text-[26px]'>
           Captivating <span className='text-accent'>stories</span> birth magnificant designs. </motion.h2>
 
         <motion.p
@@ -141,7 +141,7 @@ const About = () => {
           initial='hidden'
           animate='show'
           exit='hidden'
-          className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>I began freelancing as a developer and Designer. I&apos;am done remote work for communities, for startups, and collaborated on digital products for business and consumer use.</motion.p>
+          className='max-w-[500px] mx-auto xl:mx-0 xl:mb-12 px-2 xl:px-0'>I began freelancing as a developer and Designer. I&apos;am done remote work for communities, for startups, and collaborated on digital products for business and consumer use.</motion.p>
 
         {/* Counters */}
         <motion.div
