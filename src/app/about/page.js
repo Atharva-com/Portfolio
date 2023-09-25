@@ -123,7 +123,7 @@ const About = () => {
       <Avatar />
     </motion.div>
 
-    <div className='overflow-hidden sm:overflow-visible container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 lg:p-0 px-4'>
+    <div className='overflow-hidden sm:overflow-visible container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6 lg:p-0 px-4 mb-4 sm:mb-0'>
 
       {/* Left */}
       <div className='flex-1 flex flex-col justify-center my-6 sm:my-0 xl:pl-20'>
