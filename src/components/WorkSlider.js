@@ -41,36 +41,6 @@ export const workSlides = {
       ],
     },
 
-    {
-      images: [
-        {
-          title: 'The Fit club',
-          link: 'https://gymnast-com.vercel.app/',
-          path: thumb4,
-        },
-        {
-          title: 'Weather App',
-          link: 'https://weather-kappa-five.vercel.app/',
-          path: thumb6,
-        },
-      ],
-    },
-
-    {
-      images: [
-        {
-          title: 'Todo List',
-          link: 'https://todo-list-chi-bay.vercel.app/',
-          path: thumb8,
-        },
-        {
-          title: 'Academia',
-          link: 'https://academia-xi.vercel.app/',
-          path: thumb7,
-        },
-      ],
-    },
-
   ],
 };
 import { BsArrowRight } from 'react-icons/bs'
