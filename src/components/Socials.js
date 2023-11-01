@@ -8,11 +8,7 @@ import {
 import {FaGithub} from 'react-icons/fa'
 
 const Socials = () => {
-  return <div className="flex items-center gap-x-5 text-xl">
-
-    <Link href={''} target="_blank"  className="hover:text-accent transition-all duration-300">
-      <RiYoutubeLine />
-    </Link>
+  return <div className="flex items-center gap-x-5 text-xl relative z-[1000]">
 
     <Link href={'https://github.com/Atharva-com'} target="_blank" className="hover:text-accent transition-all duration-300">
       <FaGithub />
