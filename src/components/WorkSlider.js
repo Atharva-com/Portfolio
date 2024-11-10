@@ -1,12 +1,7 @@
 // data
 import thumb1 from '../../public/thumb1.png'
-import thumb2 from '../../public/thumb2.png'
-import thumb3 from '../../public/thumb3.png'
-import thumb4 from '../../public/thumb4.png'
+import thumb2 from '../../public/thumb2.jpg'
 import thumb5 from '../../public/JN Tours.png'
-import thumb6 from '../../public/thumb6.png'
-import thumb7 from '../../public/thumb7.png'
-import thumb8 from '../../public/thumb8.png'
 
 export const workSlides = {
   slides: [
@@ -29,16 +24,11 @@ export const workSlides = {
     {
       images: [
         {
-          title: 'Google-clone',
-          link: 'https://goole-clone.vercel.app/',
-          path: thumb3,
-        },
-        {
-          title: 'ShreeVastra E-commerce',
-          link: 'https://shree-vastra.vercel.app/',
+          title: 'Upcube',
+          link: 'https://upcube.io/',
           path: thumb2,
-        },
-      ],
+        }
+      ]
     },
 
   ],
